@@ -1,4 +1,8 @@
 @media (max-width:850px) {
+    nav{
+        font-size: 10px;
+    }
+
     .opening-page {
         display: flex;
         flex-direction: column;
@@ -20,8 +24,25 @@
     flex-direction: column;
     margin: 5rem;
     }
+
+    .project-pic-container{
+        width: 380px;
+    }
+
     div img {
         width: 80%;
+        max-width: 340px;
+    }
+
+    .prevButton{
+        position: absolute;
+        top: 45%;
+        left: 30px;
+    }
+    .nextButton{
+        position: absolute;
+        top: 45%;
+        right: 30px;
     }
 
     .little-man-container{
