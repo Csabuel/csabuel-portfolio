@@ -319,3 +319,10 @@ right: 4px;
     cursor: pointer;
 }
 
+.cv a{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(24, 168, 156);
+}
+
