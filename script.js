@@ -11,8 +11,7 @@ const pictures = [
   ],
   [
     'Project pict/Project2 pic 1.png',
-    'Project pict/Project2 pic 2.png',
-    'Project pict/Project2 pic 3.png'
+    'Project pict/Project2 pic 2.png'
   ]
 ];
 
