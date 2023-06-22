@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    img{
+      width: 100%;
+    }
+    .rel-contain{
+      width: 250px;
+      position: relative;
+      text-align: center;
+    }
+    .rel-contain button{
+      height: 20px;
+      width: 20px;
+      background-color: rgba(217, 217, 217, 0.26);
+      border: 1px solid black;
+      border-radius: 10px;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .prevButton{
+      position: absolute;
+      top: 45%;
+      left: 4px;
+    }
+    .nextButton{
+      position: absolute;
+      top: 45%;
+      right: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="rel-contain">
+    <img  class="pic" src="/Project pict/Project1 pic 1.png" alt="">
+  <button class="prevButton">&lt;</button>
+  <button class="nextButton">&gt;</button>
+  </div>
+  
+  <div class="rel-contain">
+    <img  class="pic" src="/Project pict/Project2 pic 1.png" alt="">
+  <button class="prevButton">&lt;</button>
+  <button class="nextButton">&gt;</button>
+  </div>
+  
+  <div class="rel-contain">
+    <img  class="pic" src="/Project pict/Project3 pic 1.png" alt="">
+  <button class="prevButton">&lt;</button>
+  <button class="nextButton">&gt;</button>
+  </div>
+  
+  <script src="/script.js"></script>
+</body>
+</html>
