@@ -311,6 +311,11 @@ position: absolute;
 top: 45%;
 right: 4px;
 }
+.demo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
 .demo p{
     font-weight: 600;
