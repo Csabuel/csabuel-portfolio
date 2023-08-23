@@ -1,5 +1,10 @@
 const pictures = [
   [
+    'Project pict/Project4 pic 1.png',
+    'Project pict/Project4 pic 2.png',
+    'Project pict/Project4 pic 3.png'
+  ],
+  [
     'Project pict/Project1 pic 1.png',
     'Project pict/Project1 pic 2.png',
     'Project pict/Project1 pic 3.png'

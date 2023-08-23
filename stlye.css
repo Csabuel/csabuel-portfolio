@@ -311,6 +311,7 @@ position: absolute;
 top: 45%;
 right: 4px;
 }
+
 .demo{
     display: flex;
     flex-direction: row;
@@ -330,4 +331,3 @@ right: 4px;
     font-weight: 600;
     color: rgb(24, 168, 156);
 }
-
